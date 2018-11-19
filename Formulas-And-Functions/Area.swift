@@ -47,8 +47,11 @@ func forRectangleWith(length l : Double, width w : Double) -> Double {
     return result
 }
 
-func forParallelogramWith(base b : Double, height h : Double) -> Double {
+func forParallelogramWith(base x : Double, height y : Double) -> Double {
     
     let result = x * y
     return result
+
 }
+
+
