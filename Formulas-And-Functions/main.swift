@@ -24,3 +24,21 @@ let x = 3.0
 let y = 2.0
 let areaOfParellelogram = forParallelogramWith(base: x, height: y)
 print(areaOfParellelogram)
+
+//Calculate the area of the Triangle
+let g = 3.0
+let h = 4.0
+let areaOfTriangle = forTriangleWith(base: g, height: h)
+print(areaOfTriangle)
+
+//Calculate the area of the Trapzoid
+let e = 3.0
+let f = 2.0
+let o = 5.0
+let areaOfTrapzoid = forTrapzoidWith(base1: e, base2: f, height: o)
+print(areaOfTrapzoid)
+
+//Calculate the surface area of the square
+let c = 2.0
+let surfaceAreaOfSquare = forSquareSAWith(side: c)
+print(surfaceAreaOfSquare)

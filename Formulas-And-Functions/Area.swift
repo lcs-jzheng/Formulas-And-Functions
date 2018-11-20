@@ -54,4 +54,17 @@ func forParallelogramWith(base x : Double, height y : Double) -> Double {
 
 }
 
+func forTriangleWith(base g : Double, height h : Double) -> Double {
+    let result = (g * h)/2
+    return result
+}
 
+func forTrapzoidWith(base1 e : Double, base2 f : Double, height o : Double) -> Double {
+    let result = (e + f)/2 * o
+    return result
+}
+
+func forSquareSAWith(side c : Double) -> Double {
+    let result = 6 * (c * c)
+    return result
+}
